@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AA48DFF1B240D6800E52AFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA48DFE1B240D6800E52AFC /* AppDelegate.swift */; };
+		9AA48E011B240D6800E52AFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA48E001B240D6800E52AFC /* ViewController.swift */; };
+		9AA48E041B240D6800E52AFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA48E021B240D6800E52AFC /* Main.storyboard */; };
+		9AA48E061B240D6800E52AFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA48E051B240D6800E52AFC /* Images.xcassets */; };
+		9AA48E091B240D6800E52AFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA48E071B240D6800E52AFC /* LaunchScreen.xib */; };
+		9AA48E151B240D6800E52AFC /* nabeatuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA48E141B240D6800E52AFC /* nabeatuTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AA48E0F1B240D6800E52AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA48DF11B240D6700E52AFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AA48DF81B240D6700E52AFC;
+			remoteInfo = nabeatu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AA48DF91B240D6700E52AFC /* nabeatu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nabeatu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA48DFD1B240D6800E52AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA48DFE1B240D6800E52AFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AA48E001B240D6800E52AFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AA48E031B240D6800E52AFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AA48E051B240D6800E52AFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9AA48E081B240D6800E52AFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9AA48E0E1B240D6800E52AFC /* nabeatuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nabeatuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA48E131B240D6800E52AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA48E141B240D6800E52AFC /* nabeatuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nabeatuTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AA48DF61B240D6700E52AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA48E0B1B240D6800E52AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AA48DF01B240D6700E52AFC = {
+			isa = PBXGroup;
+			children = (
+				9AA48DFB1B240D6700E52AFC /* nabeatu */,
+				9AA48E111B240D6800E52AFC /* nabeatuTests */,
+				9AA48DFA1B240D6700E52AFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AA48DFA1B240D6700E52AFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AA48DF91B240D6700E52AFC /* nabeatu.app */,
+				9AA48E0E1B240D6800E52AFC /* nabeatuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AA48DFB1B240D6700E52AFC /* nabeatu */ = {
+			isa = PBXGroup;
+			children = (
+				9AA48DFE1B240D6800E52AFC /* AppDelegate.swift */,
+				9AA48E001B240D6800E52AFC /* ViewController.swift */,
+				9AA48E021B240D6800E52AFC /* Main.storyboard */,
+				9AA48E051B240D6800E52AFC /* Images.xcassets */,
+				9AA48E071B240D6800E52AFC /* LaunchScreen.xib */,
+				9AA48DFC1B240D6800E52AFC /* Supporting Files */,
+			);
+			path = nabeatu;
+			sourceTree = "<group>";
+		};
+		9AA48DFC1B240D6800E52AFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AA48DFD1B240D6800E52AFC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AA48E111B240D6800E52AFC /* nabeatuTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AA48E141B240D6800E52AFC /* nabeatuTests.swift */,
+				9AA48E121B240D6800E52AFC /* Supporting Files */,
+			);
+			path = nabeatuTests;
+			sourceTree = "<group>";
+		};
+		9AA48E121B240D6800E52AFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AA48E131B240D6800E52AFC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AA48DF81B240D6700E52AFC /* nabeatu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA48E181B240D6800E52AFC /* Build configuration list for PBXNativeTarget "nabeatu" */;
+			buildPhases = (
+				9AA48DF51B240D6700E52AFC /* Sources */,
+				9AA48DF61B240D6700E52AFC /* Frameworks */,
+				9AA48DF71B240D6700E52AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nabeatu;
+			productName = nabeatu;
+			productReference = 9AA48DF91B240D6700E52AFC /* nabeatu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AA48E0D1B240D6800E52AFC /* nabeatuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA48E1B1B240D6800E52AFC /* Build configuration list for PBXNativeTarget "nabeatuTests" */;
+			buildPhases = (
+				9AA48E0A1B240D6800E52AFC /* Sources */,
+				9AA48E0B1B240D6800E52AFC /* Frameworks */,
+				9AA48E0C1B240D6800E52AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AA48E101B240D6800E52AFC /* PBXTargetDependency */,
+			);
+			name = nabeatuTests;
+			productName = nabeatuTests;
+			productReference = 9AA48E0E1B240D6800E52AFC /* nabeatuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AA48DF11B240D6700E52AFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "有村 琢磨";
+				TargetAttributes = {
+					9AA48DF81B240D6700E52AFC = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					9AA48E0D1B240D6800E52AFC = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 9AA48DF81B240D6700E52AFC;
+					};
+				};
+			};
+			buildConfigurationList = 9AA48DF41B240D6700E52AFC /* Build configuration list for PBXProject "nabeatu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AA48DF01B240D6700E52AFC;
+			productRefGroup = 9AA48DFA1B240D6700E52AFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AA48DF81B240D6700E52AFC /* nabeatu */,
+				9AA48E0D1B240D6800E52AFC /* nabeatuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AA48DF71B240D6700E52AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA48E041B240D6800E52AFC /* Main.storyboard in Resources */,
+				9AA48E091B240D6800E52AFC /* LaunchScreen.xib in Resources */,
+				9AA48E061B240D6800E52AFC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA48E0C1B240D6800E52AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AA48DF51B240D6700E52AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA48E011B240D6800E52AFC /* ViewController.swift in Sources */,
+				9AA48DFF1B240D6800E52AFC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA48E0A1B240D6800E52AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA48E151B240D6800E52AFC /* nabeatuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AA48E101B240D6800E52AFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AA48DF81B240D6700E52AFC /* nabeatu */;
+			targetProxy = 9AA48E0F1B240D6800E52AFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AA48E021B240D6800E52AFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AA48E031B240D6800E52AFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AA48E071B240D6800E52AFC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AA48E081B240D6800E52AFC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AA48E161B240D6800E52AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AA48E171B240D6800E52AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AA48E191B240D6800E52AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nabeatu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AA48E1A1B240D6800E52AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nabeatu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AA48E1C1B240D6800E52AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = nabeatuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nabeatu.app/nabeatu";
+			};
+			name = Debug;
+		};
+		9AA48E1D1B240D6800E52AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = nabeatuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nabeatu.app/nabeatu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AA48DF41B240D6700E52AFC /* Build configuration list for PBXProject "nabeatu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA48E161B240D6800E52AFC /* Debug */,
+				9AA48E171B240D6800E52AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA48E181B240D6800E52AFC /* Build configuration list for PBXNativeTarget "nabeatu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA48E191B240D6800E52AFC /* Debug */,
+				9AA48E1A1B240D6800E52AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AA48E1B1B240D6800E52AFC /* Build configuration list for PBXNativeTarget "nabeatuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA48E1C1B240D6800E52AFC /* Debug */,
+				9AA48E1D1B240D6800E52AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AA48DF11B240D6700E52AFC /* Project object */;
+}
